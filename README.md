@@ -2,14 +2,15 @@
 
 The **Online Examination System website** is a simple website that conducts a quiz consisting of ten questions within a specified time limit.
 
-##Working : 
+##Working:
+
 -The Main Page need to be loaded which requests the user to enter his/her name and has a **Begin Test** button which redirects control to the main examination page.
 -As soon as the test begins , a timer of 5 minute starts and the user must finish answering all the ten questions within the time specified.
 -All questions are compulsary and if the user runs out of time , an auto-submit redirects control to the result page.
 -The result page displays the **Final Score Out of 10** that the user has scored .It also displays a table showing the correct answers alog with the ones the user has selected and the points recieved accordingly.
 -The user can re-attempt the test by clicking on **Back to Home Page** button.
 
-##Steps :
+##Steps:
 
 -Install all the codes namely : **MainPage.php,TestPage.php,Result.php.**
 -A working xampp/wamp/apache software is required for the database connections.
