@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	$conn = mysqli_connect("localhost","root","admin","Examination") or die("Connection failed".mysqli_connect_error());
+	//$conn = mysqli_connect("localhost","root","admin","Examination") or die("Connection failed".mysqli_connect_error());
 		date_default_timezone_set("Asia/Kolkata");
 		setcookie("clock", "", time() - 3600);
 	if(isset($_POST["submit"]))
