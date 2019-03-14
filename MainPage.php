@@ -11,6 +11,19 @@
 		$_SESSION["answers"]=array("","","","","","","","","","");
 		header('Location:TestPage.php?val=1');
 	}
+
+class MyMemcachedSessionHandler extends SessionHandler {
+    public function read($id)
+    {
+        $data = parent::read($id);
+        if(empty($data)) {
+            return '';
+        } else {
+            return $data;
+        }
+    } 
+}
+
 ?>
 <html>
 <head>
